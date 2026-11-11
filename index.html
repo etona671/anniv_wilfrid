@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071a35">
+  <meta name="description" content="Une attention d’anniversaire pour Yobo, avec respect et fraternité.">
+  <title>Pour Yobo — Une fraternité au-delà du sang</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.1/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.1/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@barba/core@2.10.3/dist/barba.umd.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body data-barba="wrapper">
+  <a class="skip-link" href="#scene-portrait">Passer à l’hommage</a>
+  <header class="site-header" aria-label="Navigation de l’expérience">
+    <a class="wordmark" href="#ouverture" aria-label="Pour Yobo, début">Y<span>.</span></a>
+    <p class="header-note">Une attention pour Yobo <span>·</span> IAI</p>
+    <div class="progress" aria-hidden="true"><span id="progress-line"></span></div>
+    <span class="progress-label" id="progress-label">01 / 04</span>
+  </header>
+
+  <main data-barba="container" data-barba-namespace="birthday">
+    <section class="scene opening" id="ouverture" data-scene="01" aria-labelledby="opening-title">
+      <div class="opening-index"><span>Une célébration</span><span>À Libreville, avec estime</span></div>
+      <div class="opening-copy">
+        <p class="kicker reveal">À l’occasion d’un jour à part</p>
+        <h1 id="opening-title"><span class="title-small reveal">Pour</span><span class="title-large reveal">Yobo<span class="period">.</span></span></h1>
+        <p class="opening-subtitle reveal">Une fraternité<br>au-delà du sang.</p>
+      </div>
+      <div class="opening-bottom">
+        <p>Un mot de ton jeune compatriote,<br>à l’IAI.</p>
+        <a class="round-link" href="#scene-portrait" aria-label="Découvrir le portrait de Yobo"><span>↓</span></a>
+      </div>
+      <span class="margin-mark" aria-hidden="true">01 — 04</span>
+    </section>
+
+    <section class="scene portrait-scene" id="scene-portrait" data-scene="02" aria-labelledby="portrait-heading">
+      <div class="portrait-aside reveal">
+        <p class="kicker">Un visage, un parcours</p>
+        <h2 id="portrait-heading">La force<br>du chemin.</h2>
+        <p class="aside-copy">Le respect se nourrit de ce que l’on construit, et de la façon dont on avance.</p>
+        <span class="fine-rule"></span>
+        <p class="image-caption">Yobo <span>·</span> IAI, Tchad</p>
+      </div>
+      <figure class="portrait-frame reveal">
+        <div class="image-mask"><img src="assets/yobo-portrait.jpg" alt="Yobo, debout dans une chemise bleu clair" fetchpriority="high"></div>
+        <figcaption><span>PORTRAIT</span><span>01 / 02</span></figcaption>
+      </figure>
+      <span class="portrait-ghost" aria-hidden="true">YOBO</span>
+      <span class="margin-mark" aria-hidden="true">02 — 04</span>
+    </section>
+
+    <section class="scene message-scene" id="scene-message" data-scene="03" aria-labelledby="message-heading">
+      <div class="message-number reveal">03<span> / 04</span></div>
+      <div class="message-layout">
+        <div class="message-heading reveal">
+          <p class="kicker">Quelques mots sincères</p>
+          <h2 id="message-heading">Cher<br><em>Yobo,</em></h2>
+        </div>
+        <div class="message-body reveal">
+          <p>La fraternité se construit aussi entre compatriotes, dans le respect et les chemins que l’on partage.</p>
+          <p>Je suis heureux de te connaître à l’IAI. Pour cette nouvelle année, je te souhaite la santé, de belles réussites et beaucoup de joie.</p>
+          <p class="birthday-line">Joyeux anniversaire, Yobo.<span class="flag-mark" aria-label="Tchad"><i></i><i></i><i></i></span></p>
+        </div>
+      </div>
+      <figure class="memory-image reveal">
+        <img src="assets/yobo-moment.jpg" alt="Yobo lors d’un moment partagé" loading="lazy">
+        <figcaption>Un souvenir parmi d’autres <span>·</span> 02 / 02</figcaption>
+      </figure>
+      <span class="margin-mark" aria-hidden="true">03 — 04</span>
+    </section>
+
+    <section class="scene closing" id="signature" data-scene="04" aria-labelledby="closing-heading">
+      <div class="closing-rule reveal"><span></span><span>Avec respect et fraternité</span><span></span></div>
+      <div class="closing-copy reveal">
+        <p class="kicker">Une nouvelle année s’ouvre</p>
+        <h2 id="closing-heading">Qu’elle te<br><em>soit belle.</em></h2>
+      </div>
+      <div class="signature reveal">
+        <span class="signature-mark" aria-hidden="true">Y.</span>
+        <p>Ton jeune compatriote <span>—</span><br>IAI-GABON, <span class="chad-flag" aria-label="IAI-Gabon">🇬🇦</span></p>
+      </div>
+      <a class="back-top" href="#ouverture">Revenir au début <span>↑</span></a>
+      <span class="margin-mark" aria-hidden="true">04 — 04</span>
+    </section>
+  </main>
+  <noscript><p class="noscript-note">L’expérience reste lisible sans JavaScript ; les animations sont simplement désactivées.</p></noscript>
+</body>
+</html>
